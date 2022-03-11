@@ -24,7 +24,7 @@ Java es un lenguaje sencillo y orientado a objetos, que permite el desarrollo de
 
 aplicaciones cliente-servidor, interfaces gráficas, páginas Web interactivas y desarrollo de aplicaciones móviles, entre otras.
 
-![java](./images/java.png)
+![java](../images/java.png)
 
 ## LENGUAJE 3
 
@@ -34,4 +34,4 @@ C++ es un lenguaje de programación orientado a objetos muy potente que evolucio
 
 realizar programación estructurada de alto nivel y rendimiento, como sistemas operativos, videojuegos y aplicaciones en la nube.
 
-![C++](./images/C++.png)
+![C++](../images/C++.png)
