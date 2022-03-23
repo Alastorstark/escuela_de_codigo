@@ -34,4 +34,4 @@ FINMIENTRAS
 
 -mostrar(resultado)
 
-![image](https://user-images.githubusercontent.com/87988894/159751449-9482d8a5-6456-4267-908c-4662b414bd88.png)
+![image](https://user-images.githubusercontent.com/87988894/159787262-db65d04c-b9cd-4993-9b6c-ed54cc10573f.png)
