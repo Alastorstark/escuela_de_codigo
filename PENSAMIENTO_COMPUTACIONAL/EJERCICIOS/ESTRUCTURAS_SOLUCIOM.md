@@ -36,7 +36,7 @@ ALGORITMO
 ![image](https://user-images.githubusercontent.com/91554777/159334854-526fb131-dac4-4109-9836-ab627be3e174.png)
 
 
-Si quieres probar tu programa en JS, ingresa a https://jseditor.io/
+
 
     var num;
     num = prompt("ingresa un número");
