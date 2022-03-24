@@ -38,16 +38,7 @@ ALGORITMO
 
 
 
-    var num;
-    num = prompt("ingresa un número");
-    if(num < 0){
-        alert("el número es negativo");
-    } else if(num > 0){
-        alert("el número es positivo");
-    } else alert("es neutro o no es un número");
-
-
-* Programa que solicite se ingrese una letra y sólo permita introducir los caracteres s y n.
+  Programa que solicite se ingrese una letra y sólo permita introducir los caracteres s y n.
 
 ALGORITMO
 
@@ -65,13 +56,7 @@ DIAGRAMA DE FLUJO
 
 ![image](https://user-images.githubusercontent.com/91554777/159336551-720553da-9836-417e-9f09-be90918a1339.png)
 
-Si quieres probar tu programa en JS, ingresa a https://jseditor.io/
 
-    var letra;
-    letra = prompt("ingresa una letra");
-    if(letra == "n" || letra == "s"){
-        alert("correcto")
-    }else alert("inorrecto")
 
 
 * Un programa que pida una letra y detecte si es una vocal. 
@@ -95,22 +80,7 @@ DIAGRAMA DE FLUJO
 
 ![image](https://user-images.githubusercontent.com/91554777/159338476-8d99a131-d6eb-41af-a2ac-85f7404e9103.png)
 
-    var vocal;
-    vocal=prompt("ingresa una letra");
-    switch(vocal){
-        case "a": alert("es vocal");
-        break;
-        case "e": alert("es vocal");
-        break;
-        case "i": alert("es vocal");
-        break;
-        case "o": alert("es vocal");
-        break;
-        case "u": alert("es vocal");
-        break;
-        default: alert("no es vocal");
-    }
-
+    
 
 * Programa que pida 3 números y los muestre en pantalla de menor a mayor.  
 ALGORITMO
@@ -146,27 +116,6 @@ DIAGRAMA DE FLUJO
 
 ![image](https://user-images.githubusercontent.com/91554777/159351681-bacd4824-82c4-4627-b2fb-0296eb82341a.png)
 
-Si quieres probar tu programa en JS, ingresa a https://jseditor.io/
-
-    var num1;
-    var num2;
-    var num3;
-    num1=prompt("ingresa un número");
-    num2=prompt("ingresa otro número");
-    num3=prompt("ingresa otro número");
-    if(num1 < num2 && num1 < num3){
-        if(num2 < num3){
-            alert(num1+","+num2+","+num3);
-        }else alert(num1+","+num3+","+num2);
-    }else if(num2 < num1 && num2 < num3){
-        if(num1 < num3){
-            alert(num2+","+num1+","+num3);
-        }else alert(num2+","+num3+","+num1);
-    }else if(num3 < num1 && num3 < num2 ){
-        if(num1 <num2 ){
-            alert(num3+","+num1+","+num2);
-        }else alert(num3+","+num2+","+num1);
-    }else alert("algún número se repite");
 
 
          
@@ -261,17 +210,7 @@ DIAGRAMA DE FLUJO
 
 ![image](https://user-images.githubusercontent.com/91554777/159373864-f2347164-3202-4a1f-a9cc-e164f282caeb.png)
 
-Si quieres probar tu programa en JS, ingresa a https://jseditor.io/
 
-    var email;
-    var contra;
-    var email_validar = "correo@gmail.com";
-    var contra_validar = "1234567";
-    email = prompt("ingresa tu correo");
-    contra = prompt("ingresa tu contraseña");
-    if(contra == contra_validar && email == email_validar){
-        alert("email y contraseña correcta");
-    }else alert("email o contraseña incorrecta");
 
 
 
