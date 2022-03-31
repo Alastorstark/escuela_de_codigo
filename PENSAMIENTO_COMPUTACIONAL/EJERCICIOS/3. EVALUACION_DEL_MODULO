@@ -22,5 +22,6 @@ Diseña un algoritmo representándolo en Diagrama de Flujo y Pseudocódigo para 
 -asignar(cont)
 -MIENTRAS (cont<1)mostrar ("Ingresa la edad del alumno ")prom=prm+edad/cont
  mostrar(prom)
+ cont=cont-1
  FINMIENTRAS
  -FIN
