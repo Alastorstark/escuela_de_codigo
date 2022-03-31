@@ -5,7 +5,9 @@ y el mensaje REPROBADO en caso contrario, considere además el siguiente requisi
 -inicio
 -declarar(cali)
 -asignar (cali)
--SI (cali>=4.0) mostrar ("APROBADO") si no mostrar ("REPROBADO") 
+-SI(cali=<1 y cali>7) SI (cali>=4.0) mostrar ("APROBADO") si no mostrar ("REPROBADO") 
+ FINSI
+ mostrar ("valos no valido")
  FINSI
 -FIN
 
@@ -15,6 +17,10 @@ Actividad 2. Programa, usando algoritmo de estructura repetitiva, lo siguiente:
 Diseña un algoritmo representándolo en Diagrama de Flujo y Pseudocódigo para obtener la edad promedio de un grupo de N alumnos.
 
 -inicio
--declarar(edad,alumnos)
--asignar(edad,alumnos)
--mientras 
+-declarar(cont,prom,edad)int
+-mostrar("Ingresa el numero de alumnos")
+-asignar(cont)
+-MIENTRAS (cont<1)mostrar ("Ingresa la edad del alumno ")prom=prm+edad/cont
+ mostrar(prom)
+ FINMIENTRAS
+ -FIN
