@@ -19,6 +19,8 @@ Realiza las siguientes listas en HTML
 Realiza la siguiente tabla en HTML
 
 ![image](https://user-images.githubusercontent.com/91554777/163912405-f3d6f53c-9ee1-40f5-9234-0a48dc6435e6.png)
+
+
 4.
 Realiza el siguiente formulario
 
